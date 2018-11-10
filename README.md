@@ -1,5 +1,5 @@
 ### Til að setja up eslint
 npm install eslint --save-dev 
 
-### Til að keyra 
+### Til að athuga forrit með eslint 
 npm run test 
