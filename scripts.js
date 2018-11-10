@@ -40,7 +40,9 @@ const program = (() => {
   }
 
   function formatDate(date) {
-    const d = new Date(date);
+    const firefox = date.split(' ');
+    const dateStr = `${firefox[1]} ${firefox[0].replace('.', '')}, ${firefox[2]}`;
+    const d = new Date(dateStr);
     let month = d.getMonth() + 1;
     let day = d.getDate();
     const year = d.getFullYear();
