@@ -4,8 +4,8 @@
   "description": "verkefni 9",
   "main": "index.js",
   "scripts": {
-    "test": "",
-    "dev": "browser-sync start --server --files index.html styles.css scripts.js"
+    "eslint": "eslint *.js **/*.js",
+    "test": "npm run eslint"
   },
   "keywords": [],
   "author": "",
